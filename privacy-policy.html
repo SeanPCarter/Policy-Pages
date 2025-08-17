@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — My N8N Workflow</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.6; max-width: 840px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.8rem; }
+  h2 { margin-top: 1.6rem; }
+  code { background:#f2f2f2; padding:.1rem .3rem; border-radius:4px; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p><strong>App:</strong> My N8N Workflow<br>
+<strong>Last updated:</strong> August 17, 2025</p>
+
+<p>This app helps a Facebook Page owner draft replies to comments and send the draft via SMS. It connects to the Facebook Graph API, OpenAI, and Twilio through an automation hosted in n8n.</p>
+
+<h2>What data we process</h2>
+<ul>
+  <li>Facebook comment content, commenter name and profile ID (as provided by the Facebook Pages API).</li>
+  <li>Links (permalink URL) to the relevant Facebook comment or post.</li>
+  <li>Your configured phone number to receive SMS messages.</li>
+</ul>
+
+<h2>How we use the data</h2>
+<ul>
+  <li>To fetch comments on your Page or replies to your Page’s comments.</li>
+  <li>To generate a suggested reply using OpenAI.</li>
+  <li>To send the suggested reply to you via SMS through Twilio.</li>
+</ul>
+
+<h2>Data sharing</h2>
+<ul>
+  <li><strong>Facebook</strong> (Meta): source of the data via the Graph API.</li>
+  <li><strong>OpenAI</strong>: receives the comment text to generate a draft reply.</li>
+  <li><strong>Twilio</strong>: receives the SMS body and destination phone number to deliver the text message.</li>
+  <li><strong>n8n Cloud</strong>: runs the automation workflow that orchestrates these services.</li>
+</ul>
+
+<h2>Data retention</h2>
+<p>Operational logs may be stored for troubleshooting and to avoid duplicate processing. Draft replies sent by SMS may appear in Twilio message logs. You can request deletion at any time (see below).</p>
+
+<h2>Your choices and rights</h2>
+<ul>
+  <li>You may request access to or deletion of data associated with this app.</li>
+  <li>You may disconnect the app at any time by removing Page subscriptions or deactivating the workflow.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>For questions or requests, email: <a href="mailto:you@example.com">you@example.com</a>.</p>
+
+<h2>Data deletion</h2>
+<p>To request deletion of data processed by this app, follow the steps on the <a href="./data-deletion.html">Data Deletion Instructions</a> page.</p>
+</body>
+</html>
